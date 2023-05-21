@@ -1,0 +1,77 @@
+/* SEARCHBAR */
+
+.main__searchbar {
+    display: flex;
+    height: 2.5em;
+    margin-top: 1.5em;
+    justify-content: flex-start;
+    border-bottom: 1px solid #757575;
+    color: #626262;
+    width: 45%;
+    margin-inline: 1.5px;
+  }
+  
+  .main__searchbar__logo {
+    width: 1.2em;
+    margin-inline: 0.7em;
+  }
+  
+  .main__searchbar__input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  
+    width: 87.3%;
+  }
+  
+  /* MAIN */
+  
+  .main__header {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .main__catalog {
+    display: grid;
+    flex-flow: row wrap;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  
+  .main__catalog__card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    color: #1d1d1d;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+  
+  .main__catalog__card__info {
+    margin-top: 0.5em;
+  }
+  
+  .main__catalog__card__info__name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .main__catalog__card__info__type {
+    font-size: 14px;
+  
+    color: #626262;
+  }
+  
+  .main__catalog__card__info__time {
+    font-size: 13px;
+  }
+  
